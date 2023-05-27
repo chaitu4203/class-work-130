@@ -1,0 +1,93 @@
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    color: deeppink;
+    background-color: blue;
+}
+
+.note
+{
+    font-size: 20px;
+    color: deeppink
+}
+
+body
+{
+    background-size:  cover;
+}
+
+.div_speed
+{
+    float: left;
+}
+
+.div_speed_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed
+{
+    font-size: 23px;
+    margin: 15px;
+    border: 10px;
+    border-style:double;
+    border-color: purple;
+    color: deeppink;
+    background-color: darkblue;
+}
+
+.div_volume
+{
+    float: right;
+}
+
+.div_volume_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume
+{
+    font-size: 23px;
+    margin: 15px;
+    border: 10px;
+    border-style: double;
+    border-color: purple;
+    color:deeppink;
+    background-color: darkblue;
+}
+
+.play_button
+{
+    width: 130px;
+    font-size: 25px;
+}
+
+canvas
+{
+    border:5px solid purple;
+    border-radius: 20px; 
+    animation-name: hi;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+}
+@keyframes hi
+{
+    from {box-shadow: 3px 3px 40px blue;}
+    to{box-shadow: 3px 3px 40px red;}
+}
+.clicker
+{
+    font-size: 15px;
+    color: black;
+    border-radius: 3px;
+    border-style: inherit;
+}
+
+
+
